@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - VEGO VTC</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Leaflet CSS pour la carte interactive -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <div class="content-wrapper">
+        <!-- Header identique au reste du site -->
+        <header class="header-2025" role="banner">
+            <div class="top-bar">
+                <div class="container">
+                    <div class="contact-info">
+                        <a href="tel:+33600000000" aria-label="Appelez-nous"><i class="fas fa-phone-alt"></i> +33 6 00 00 00 00</a>
+                        <a href="mailto:contact@vtcpremium.fr" aria-label="Envoyez-nous un email"><i class="fas fa-envelope"></i> contact@vtcpremium.fr</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-header">
+                <div class="container">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/img/logo2.png" alt="VEGO VTC - Transport avec chauffeur" class="main-logo">
+                        </a>
+                    </div>
+                    <nav class="main-nav" role="navigation">
+                        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                            <span class="sr-only">Menu</span>
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <ul id="primary-navigation" class="primary-navigation">
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.html">À propos</a></li>
+                            <li class="active"><a href="contact.html">Contact</a></li>
+                            <li class="highlight"><a href="tel:+33600000000" class="btn-call-now"><i class="fas fa-phone-alt"></i> Réserver</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Bandeau jaune/or -->
+        <section style="background: var(--secondary); padding: 3rem 0 2rem 0; text-align: center;">
+            <div class="container">
+                <h1 class="animate" style="font-size:3rem; font-weight:700; color:var(--primary); margin-bottom:0.5rem;">Contactez-nous</h1>
+                <div class="animate" style="border-bottom:2px solid var(--primary); width:80px; margin:0 auto 1rem auto;"></div>
+                <div class="animate" style="font-size:1.5rem; color:var(--primary);">Accueil</div>
+            </div>
+        </section>
+
+        <!-- Bloc blanc avec titre et sous-titre -->
+        <section style="background:var(--light); padding:2rem 0 0 0; text-align:center;">
+            <div class="container">
+                <div class="animate" style="color:var(--secondary); font-weight:600; margin-bottom:0.5rem;">Merci de nous envoyez votre requête</div>
+                <h2 class="animate" style="font-size:2.5rem; font-weight:700; color:var(--primary); margin-bottom:2rem;">Pour toute information</h2>
+            </div>
+        </section>
+
+        <!-- Bloc infos seul, centré -->
+        <section style="background:var(--primary); padding:2rem 0;">
+            <div class="container" style="max-width:600px;">
+                <div style="display:flex; flex-direction:column; gap:2rem; align-items:center;">
+                    <div class="animate-left" style="width:100%; background:rgba(255,255,255,0.02); border-radius:var(--radius-md); padding:2rem 1.5rem; color:var(--secondary); display:flex; align-items:center; gap:1rem;">
+                        <i class="fas fa-map-marker-alt fa-2x animate-zoom"></i>
+                        <div>
+                            <div style="font-weight:700; color:var(--secondary); font-size:1.2rem;">Adresse</div>
+                            <div style="color:var(--light);">123 Avenue des Champs-Élysées, 75008 Paris</div>
+                        </div>
+                    </div>
+                    <div class="animate-right" style="width:100%; background:rgba(255,255,255,0.02); border-radius:var(--radius-md); padding:2rem 1.5rem; color:var(--secondary); display:flex; align-items:center; gap:1rem;">
+                        <i class="fas fa-phone-alt fa-2x animate-zoom"></i>
+                        <div>
+                            <div style="font-weight:700; color:var(--secondary); font-size:1.2rem;">Téléphone</div>
+                            <div style="color:var(--light);">+33 6 00 00 00 00</div>
+                        </div>
+                    </div>
+                    <div class="animate-left" style="width:100%; background:rgba(255,255,255,0.02); border-radius:var(--radius-md); padding:2rem 1.5rem; color:var(--secondary); display:flex; align-items:center; gap:1rem;">
+                        <i class="fas fa-envelope fa-2x animate-zoom"></i>
+                        <div>
+                            <div style="font-weight:700; color:var(--secondary); font-size:1.2rem;">Email</div>
+                            <div style="color:var(--light);">contact@vtcpremium.fr</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41508.59898682106!2d1.0499719745870395!3d49.441284143071364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e0de76ca71faab%3A0x3d1cabefa49f93d6!2sRouen!5e0!3m2!1sfr!2sfr!4v1729770466124!5m2!1sfr!2sfr" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+
+
+    <!-- Leaflet JS pour la carte interactive -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
