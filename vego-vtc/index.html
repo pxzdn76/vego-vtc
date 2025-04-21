@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="VEGO VTC - Service de transport avec chauffeur professionnel. Transferts aéroport, transport d'affaires, événements spéciaux et excursions touristiques.">
-    <title>VEGO VTC - Service de Transport avec Chauffeur</title>
+    <meta name="description" content="VEEGO VTC - Service de transport avec chauffeur professionnel. Transferts aéroport, transport d'affaires, événements spéciaux et excursions touristiques.">
+    <title>VEEGO VTC - Service de Transport avec Chauffeur</title>
+    <link rel="preconnect" href="https://cdn.vtcpremium.fr">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/features.css">
     <!-- Font Awesome pour les icônes -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,8 +24,8 @@
             <div class="top-bar">
                 <div class="container">
                     <div class="contact-info">
-                        <a href="tel:+33600000000" aria-label="Appelez-nous"><i class="fas fa-phone-alt" aria-hidden="true"></i> +33 6 00 00 00 00</a>
-                        <a href="mailto:contact@vtcpremium.fr" aria-label="Envoyez-nous un email"><i class="fas fa-envelope" aria-hidden="true"></i> contact@vtcpremium.fr</a>
+                        <a href="tel:+33600000000" aria-label="Appelez-nous"><i class="fas fa-phone-alt" aria-hidden="true"></i> +33 7 58 27 53 90</a>
+                        <a href="mailto:veegovtc@gmail.com" aria-label="Envoyez-nous un email"><i class="fas fa-envelope" aria-hidden="true"></i> veegovtc@gmail.com</a>
                     </div>
                     <div class="social-links">
                         <a href="#" aria-label="Suivez-nous sur Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
@@ -38,7 +40,24 @@
                 <div class="container">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="assets/img/logo2.png" alt="VEGO VTC - Transport avec chauffeur" class="main-logo">
+                            <picture>
+                                <source 
+                                    srcset="assets/img/logo2-small.webp 400w,
+                                            assets/img/logo2-medium.webp 800w"
+                                    type="image/webp"
+                                    sizes="200px">
+                                <img 
+                                    src="assets/img/logo2-medium.png"
+                                    srcset="assets/img/logo2-small.png 400w,
+                                            assets/img/logo2-medium.png 800w"
+                                    sizes="200px"
+                                    alt="VEEGO VTC - Transport avec chauffeur professionnel" 
+                                    class="main-logo critical-image" 
+                                    width="200" 
+                                    height="80" 
+                                    loading="eager" 
+                                    fetchpriority="high">
+                            </picture>
                         </a>
                     </div>
 
@@ -58,10 +77,29 @@
                 </div>
             </div>
         </header>
-<!-- Carrousel hero en plein écran -->
+<!-- Hero Carousel -->
 <section class="hero-carousel" aria-label="Carrousel des services">
     <div class="carousel-slides">
-        <div class="carousel-slide active" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/img/placeholder1.jpg');">
+        <div class="carousel-slide slide-1 active">
+            <picture>
+                <source 
+                    srcset="assets/img/placeholder1-small.webp 400w,
+                            assets/img/placeholder1-medium.webp 800w,
+                            assets/img/placeholder1-large.webp 1920w"
+                    type="image/webp"
+                    sizes="100vw">
+                <img 
+                    src="assets/img/placeholder1-medium.jpg"
+                    srcset="assets/img/placeholder1-small.jpg 400w,
+                            assets/img/placeholder1-medium.jpg 800w,
+                            assets/img/placeholder1-large.jpg 1920w"
+                    sizes="100vw"
+                    alt="Nos engagements - Service VTC Premium" 
+                    width="1920" 
+                    height="1080"
+                    loading="eager"
+                    fetchpriority="high">
+            </picture>
             <div class="slide-content">
                 <h2>Nos engagements</h2>
                 <p>Rapidité, prix et qualité...</p>
@@ -70,7 +108,26 @@
                 </div>
             </div>
         </div>
-        <div class="carousel-slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/img/placeholder2.jpg');">
+        <div class="carousel-slide slide-2">
+            <picture>
+                <source 
+                    srcset="assets/img/placeholder2-small.webp 400w,
+                            assets/img/placeholder2-medium.webp 800w,
+                            assets/img/placeholder2-large.webp 1920w"
+                    type="image/webp"
+                    sizes="100vw">
+                <img 
+                    src="assets/img/placeholder2-medium.jpg"
+                    srcset="assets/img/placeholder2-small.jpg 400w,
+                            assets/img/placeholder2-medium.jpg 800w,
+                            assets/img/placeholder2-large.jpg 1920w"
+                    sizes="100vw"
+                    alt="Transport VIP - Véhicules haut de gamme" 
+                    width="1920" 
+                    height="1080"
+                    loading="eager"
+                    fetchpriority="high">
+            </picture>
             <div class="slide-content">
                 <h2>Transport VIP</h2>
                 <p>Une flotte de véhicules haut de gamme à votre service</p>
@@ -79,7 +136,26 @@
                 </div>
             </div>
         </div>
-        <div class="carousel-slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/img/placeholder3.jpg');">
+        <div class="carousel-slide slide-3">
+            <picture>
+                <source 
+                    srcset="assets/img/placeholder3-small.webp 400w,
+                            assets/img/placeholder3-medium.webp 800w,
+                            assets/img/placeholder3-large.webp 1920w"
+                    type="image/webp"
+                    sizes="100vw">
+                <img 
+                    src="assets/img/placeholder3-medium.jpg"
+                    srcset="assets/img/placeholder3-small.jpg 400w,
+                            assets/img/placeholder3-medium.jpg 800w,
+                            assets/img/placeholder3-large.jpg 1920w"
+                    sizes="100vw"
+                    alt="Service 24/7 - Disponible jour et nuit" 
+                    width="1920" 
+                    height="1080"
+                    loading="eager"
+                    fetchpriority="high">
+            </picture>
             <div class="slide-content">
                 <h2>Service 24/7</h2>
                 <p>Disponible jour et nuit pour tous vos déplacements</p>
@@ -105,28 +181,82 @@
         <button class="indicator" aria-label="Slide 3" data-slide="2"></button>
     </div>
 </section>
+
+
         <!-- Présentation de l'entreprise -->
         <section class="introduction section" aria-labelledby="introduction-title">
             <div class="container">
-                <h2 id="introduction-title" class="section-title animate">Bienvenue chez VEGO VTC</h2>
+                <h2 id="introduction-title" class="section-title animate">Bienvenue chez VEEGO VTC-TAXI</h2>
                 <div class="section-content">
                     <div class="text-content">
-                        <p>VEGO VTC est votre partenaire de confiance pour tous vos déplacements. Que ce soit pour un trajet professionnel, un transfert vers l'aéroport ou une occasion spéciale, nos chauffeurs expérimentés vous garantissent un service de qualité.</p>
+                        <p>
+                            Chez VEEGO VTC, nous sommes spécialistes des déplacements privés en taxi ou VTC, que ce soit pour des trajets longue distance ou des déplacements quotidiens sur courte distance. Nous assurons tous vos trajets au départ de Rouen et ses alentours vers toute l'Europe. Notre équipe, composée de chauffeurs femmes et hommes sélectionnés rigoureusement pour leur professionnalisme et leur discrétion, vous garantit un service irréprochable en toutes circonstances.
+                            Nous vous proposons une large gamme de véhicules, allant des berlines confortables aux véhicules haut de gamme, adaptés à toutes vos exigences. Qu'il s'agisse d'un transfert vers l'aéroport, d'un voyage d'affaires équipé de Wi-Fi, d'une arrivée remarquée lors d'événements spéciaux ou d'une excursion touristique accompagnée d'un chauffeur-guide expérimenté, VEEGO VTC est votre partenaire privilégié pour voyager en toute sérénité.
+                        </p>
                         <p>Notre engagement : ponctualité, sécurité et confort pour une expérience de transport irréprochable.</p>
+                        <p>Faites le choix de la qualité, de l'élégance et de la fiabilité avec VEEGO VTC.</p>
                     </div>
                     <div class="image-content">
-                        <img src="assets/img/placeholder1.jpg" alt="Voiture de luxe VEGO VTC" class="rounded-image">
+                        <picture>
+                            <source
+                                srcset="assets/img/placeholder1-small.webp 400w,
+                                        assets/img/placeholder1-medium.webp 800w,
+                                        assets/img/placeholder1-large.webp 1200w"
+                                type="image/webp"
+                                sizes="(min-width: 1024px) 50vw, (min-width: 768px) 70vw, 100vw">
+                            <img 
+                                src="assets/img/placeholder1-medium.jpg"
+                                srcset="assets/img/placeholder1-small.jpg 400w,
+                                        assets/img/placeholder1-medium.jpg 800w,
+                                        assets/img/placeholder1-large.jpg 1200w"
+                                sizes="(min-width: 1024px) 50vw, (min-width: 768px) 70vw, 100vw"
+                                alt="Service VTC premium avec chauffeur professionnel" 
+                                class="rounded-image"
+                                width="800"
+                                height="600"
+                                loading="lazy"
+                                fetchpriority="auto">
+                        </picture>
                     </div>
                 </div>
             </div>
         </section>
 
-       
+       <!-- Caractéristiques principales -->
+<section class="features-section">
+    <div class="features-grid">
+        <div class="feature-card disponible">
+            <div class="feature-icon">
+                <i class="fas fa-clock"></i>
+            </div>
+            <h3 class="feature-title">Disponible 24/7</h3>
+            <p class="feature-description">Service de transport disponible jour et nuit. Réservez votre VTC ou taxi à n'importe quelle heure pour tous vos déplacements</p>
+        </div>
+
+        <div class="feature-card fiabilite">
+            <div class="feature-icon">
+                <i class="fas fa-medal"></i>
+            </div>
+            <h3 class="feature-title">Service Premium</h3>
+            <p class="feature-description">Chauffeurs professionnels expérimentés, véhicules haut de gamme et service personnalisé pour votre confort optimal</p>
+        </div>
+
+        <div class="feature-card rapide">
+            <div class="feature-icon">
+                <i class="fas fa-car"></i>
+            </div>
+            <h3 class="feature-title">Réservation Rapide</h3>
+            <p class="feature-description">Prise en charge immédiate de votre demande et arrivée rapide de votre chauffeur où que vous soyez</p>
+        </div>
+    </div>
+</section>
+
         <!-- Nos services en bref -->
         <section class="services-overview section gray-bg" aria-labelledby="services-title">
             <div class="container">
                 <h2 id="services-title" class="section-title animate">Nos services</h2>
                 <div class="services-grid">
+                    <!-- Première rangée -->
                     <div class="service-card animate-left">
                         <div class="service-icon animate-zoom">
                             <i class="fas fa-plane" aria-hidden="true"></i>
@@ -134,26 +264,42 @@
                         <h3>Transferts aéroport</h3>
                         <p>Arrivez à l'aéroport en toute sérénité ou soyez accueilli dès votre atterrissage.</p>
                     </div>
-                    <div class="service-card animate-right">
+                    <div class="service-card animate">
                         <div class="service-icon animate-zoom">
                             <i class="fas fa-briefcase" aria-hidden="true"></i>
                         </div>
                         <h3>Transport d'affaires</h3>
                         <p>Service dédié aux professionnels avec Wi-Fi et équipements pour travailler.</p>
                     </div>
-                    <div class="service-card animate-left">
+                    <div class="service-card animate-right">
                         <div class="service-icon animate-zoom">
                             <i class="fas fa-glass-cheers" aria-hidden="true"></i>
                         </div>
                         <h3>Événements spéciaux</h3>
                         <p>Mariages, soirées, événements - arrivez avec style et élégance.</p>
                     </div>
-                    <div class="service-card animate-right">
+
+                    <!-- Deuxième rangée -->
+                    <div class="service-card animate-left">
                         <div class="service-icon animate-zoom">
                             <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
                         </div>
                         <h3>Excursions touristiques</h3>
                         <p>Découvrez la région avec un chauffeur-guide expérimenté.</p>
+                    </div>
+                    <div class="service-card animate">
+                        <div class="service-icon animate-zoom">
+                            <i class="fas fa-clock" aria-hidden="true"></i>
+                        </div>
+                        <h3>Mise à disposition</h3>
+                        <p>Location avec chauffeur flexible pour vos événements, disponible selon vos besoins.</p>
+                    </div>
+                    <div class="service-card animate-right">
+                        <div class="service-icon animate-zoom">
+                            <i class="fas fa-taxi" aria-hidden="true"></i>
+                        </div>
+                        <h3>Transport quotidien</h3>
+                        <p>Déplacements réguliers, courses en ville ou rendez-vous médicaux avec un service ponctuel et fiable.</p>
                     </div>
                 </div>
                 <div class="cta-center">
@@ -161,6 +307,7 @@
                 </div>
             </div>
         </section>
+
 
         <!-- Appel à l'action -->
         <section class="cta-section" aria-labelledby="cta-title">
@@ -180,11 +327,11 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section about">
-                    <h3>VEGO VTC</h3>
+                    <h3>VEEGO VTC</h3>
                     <p>Service de transport avec chauffeur pour tous vos déplacements professionnels et personnels.</p>
                     <div class="contact">
-                        <p><i class="fas fa-phone" aria-hidden="true"></i> +33 6 00 00 00 00</p>
-                        <p><i class="fas fa-envelope" aria-hidden="true"></i> contact@vtcpremium.fr</p>
+                        <p><i class="fas fa-phone" aria-hidden="true"></i> +33 7 58 27 53 90</p>
+                        <p><i class="fas fa-envelope" aria-hidden="true"></i> veegovtc@gmail.com</p>
                         <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 123 Avenue des Champs-Élysées, 75008 Paris</p>
                     </div>
                 </div>
@@ -208,7 +355,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 VEGO VTC. Tous droits réservés.</p>
+                <p>&copy; 2025 VEEGO VTC. Tous droits réservés.</p>
             </div>
         </div>
     </footer>

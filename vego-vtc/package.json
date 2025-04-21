@@ -1,0 +1,11 @@
+{
+  "name": "vego-vtc",
+  "version": "1.0.0",
+  "description": "Site web VEGO VTC",
+  "scripts": {
+    "optimize-images": "node scripts/optimize-images.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.2"
+  }
+} 

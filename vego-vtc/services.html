@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nos Services - VEGO VTC</title>
+    <link rel="preconnect" href="https://cdn.vtcpremium.fr">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- En-tête du site -->
-     <!-- Wrapper pour le contenu principal -->
-     <div class="content-wrapper">
+    <!-- Wrapper pour le contenu principal -->
+    <div class="content-wrapper">
         <!-- En-tête du site (header) -->
         <header class="header-2025" role="banner">
             <div class="top-bar">
                 <div class="container">
                     <div class="contact-info">
-                        <a href="tel:+33600000000" aria-label="Appelez-nous"><i class="fas fa-phone-alt" aria-hidden="true"></i> +33 6 00 00 00 00</a>
-                        <a href="mailto:contact@vtcpremium.fr" aria-label="Envoyez-nous un email"><i class="fas fa-envelope" aria-hidden="true"></i> contact@vtcpremium.fr</a>
+                        <a href="tel:+33600000000" aria-label="Appelez-nous"><i class="fas fa-phone-alt" aria-hidden="true"></i> +33 7 58 27 53 90</a>
+                        <a href="mailto:veegovtc@gmail.com" aria-label="Envoyez-nous un email"><i class="fas fa-envelope" aria-hidden="true"></i> veegovtc@gmail.com</a>
                     </div>
                     <div class="social-links">
                         <a href="#" aria-label="Suivez-nous sur Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
@@ -32,7 +32,25 @@
                 <div class="container">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="assets/img/logo2.png" alt="VEGO VTC - Transport avec chauffeur" class="main-logo">
+                            <picture>
+                                <source 
+                                    srcset="
+                                        assets/img/optimized/logo2-small.webp 400w,
+                                        assets/img/optimized/logo2-medium.webp 800w"
+                                    type="image/webp">
+                                <img 
+                                    src="assets/img/logo2.png" 
+                                    srcset="
+                                        assets/img/optimized/logo2-small.png 400w,
+                                        assets/img/optimized/logo2-medium.png 800w"
+                                    sizes="200px"
+                                    alt="VEGO VTC - Transport avec chauffeur" 
+                                    class="main-logo" 
+                                    width="200" 
+                                    height="80" 
+                                    loading="eager" 
+                                    fetchpriority="high">
+                            </picture>
                         </a>
                     </div>
 
@@ -43,7 +61,7 @@
                         </button>
                         <ul id="primary-navigation" class="primary-navigation">
                             <li><a href="index.html">Accueil</a></li>
-                            <li  class="active"><a href="services.html">Services</a></li>
+                            <li class="active"><a href="services.html">Services</a></li>
                             <li><a href="about.html">À propos</a></li>
                             <li><a href="contact.html">Contact</a></li>
                             <li class="highlight"><a href="tel:+33600000000" class="btn-call-now"><i class="fas fa-phone-alt" aria-hidden="true"></i> Réserver</a></li>
@@ -52,6 +70,7 @@
                 </div>
             </div>
         </header>
+
     <!-- Bannière de page -->
     <section class="page-banner animate">
         <div class="container">
@@ -65,7 +84,26 @@
         <div class="container">
             <div class="service-item animate-left">
                 <div class="service-image animate-zoom">
-                    <img src="assets/img/placeholder1.jpg" alt="Transfert aéroport">
+                    <picture>
+                        <source 
+                            srcset="assets/img/placeholder1-small.webp 400w,
+                                   assets/img/placeholder1-medium.webp 800w,
+                                   assets/img/placeholder1-large.webp 1200w"
+                            type="image/webp"
+                            sizes="(min-width: 1024px) 50vw, (min-width: 768px) 70vw, 100vw">
+                        <img 
+                            src="assets/img/placeholder1-medium.jpg"
+                            srcset="assets/img/placeholder1-small.jpg 400w,
+                                    assets/img/placeholder1-medium.jpg 800w,
+                                    assets/img/placeholder1-large.jpg 1200w"
+                            sizes="(min-width: 1024px) 50vw, (min-width: 768px) 70vw, 100vw"
+                            alt="Service de transfert aéroport VTC - Accueil personnalisé et suivi des vols"
+                            width="800"
+                            height="600"
+                            loading="eager"
+                            class="critical-image"
+                            fetchpriority="high">
+                    </picture>
                 </div>
                 <div class="service-content">
                     <h2 class="animate">Transferts aéroport</h2>
@@ -78,7 +116,25 @@
             </div>
             <div class="service-item reverse animate-right">
                 <div class="service-image animate-zoom">
-                    <img src="assets/img/placeholder2.jpg" alt="Transport d'affaires">
+                    <picture>
+                        <source 
+                            srcset="assets/img/pro-small.webp 400w,
+                                   assets/img/pro-medium.webp 800w,
+                                   assets/img/pro-large.webp 1200w"
+                            type="image/webp"
+                            sizes="(min-width: 1024px) 50vw, (min-width: 768px) 70vw, 100vw">
+                        <img 
+                            src="assets/img/pro-medium.jpg"
+                            srcset="assets/img/pro-small.jpg 400w,
+                                    assets/img/pro-medium.jpg 800w,
+                                    assets/img/pro-large.jpg 1200w"
+                            sizes="(min-width: 1024px) 50vw, (min-width: 768px) 70vw, 100vw"
+                            alt="Service de transport d'affaires VTC - WiFi et équipements professionnels"
+                            width="800"
+                            height="600"
+                            loading="lazy"
+                            fetchpriority="auto">
+                    </picture>
                 </div>
                 <div class="service-content">
                     <h2 class="animate">Transport d'affaires</h2>
@@ -91,7 +147,25 @@
             </div>
             <div class="service-item animate-left">
                 <div class="service-image animate-zoom">
-                    <img src="assets/img/placeholder3.jpg" alt="Événements spéciaux">
+                    <picture>
+                        <source 
+                            srcset="assets/img/placeholder3-small.webp 400w,
+                                   assets/img/placeholder3-medium.webp 800w,
+                                   assets/img/placeholder3-large.webp 1200w"
+                            type="image/webp"
+                            sizes="(min-width: 1024px) 50vw, (min-width: 768px) 70vw, 100vw">
+                        <img 
+                            src="assets/img/placeholder3-medium.jpg"
+                            srcset="assets/img/placeholder3-small.jpg 400w,
+                                    assets/img/placeholder3-medium.jpg 800w,
+                                    assets/img/placeholder3-large.jpg 1200w"
+                            sizes="(min-width: 1024px) 50vw, (min-width: 768px) 70vw, 100vw"
+                            alt="Service VTC pour événements spéciaux - Mariages et cérémonies"
+                            width="800"
+                            height="600"
+                            loading="lazy"
+                            fetchpriority="auto">
+                    </picture>
                 </div>
                 <div class="service-content">
                     <h2 class="animate">Événements spéciaux</h2>
@@ -104,7 +178,25 @@
             </div>
             <div class="service-item reverse animate-right">
                 <div class="service-image animate-zoom">
-                    <img src="assets/img/placeholder4.jpg" alt="Excursions touristiques">
+                    <picture>
+                        <source 
+                            srcset="assets/img/touriste-small.webp 400w,
+                                   assets/img/touriste-medium.webp 800w,
+                                   assets/img/touriste-large.webp 1200w"
+                            type="image/webp"
+                            sizes="(min-width: 1024px) 50vw, (min-width: 768px) 70vw, 100vw">
+                        <img 
+                            src="assets/img/touriste-medium.jpg"
+                            srcset="assets/img/touriste-small.jpg 400w,
+                                    assets/img/touriste-medium.jpg 800w,
+                                    assets/img/touriste-large.jpg 1200w"
+                            sizes="(min-width: 1024px) 50vw, (min-width: 768px) 70vw, 100vw"
+                            alt="Service d'excursions touristiques VTC - Découverte de la région"
+                            width="800"
+                            height="600"
+                            loading="lazy"
+                            fetchpriority="auto">
+                    </picture>
                 </div>
                 <div class="service-content">
                     <h2 class="animate">Excursions touristiques</h2>
@@ -113,6 +205,34 @@
                         <li><i class="fas fa-check"></i> Chauffeurs guides</li>
                     </ul>
                     <p>Découvrez la région avec un chauffeur connaissant parfaitement les lieux.</p>
+                </div>
+            </div>
+            <div class="service-item animate-left">
+                <div class="service-image animate-zoom">
+                    <picture>
+                        <source 
+                            srcset="assets/img/placeholder4-small.webp 400w,
+                                    assets/img/optimized/placeholder4-medium.webp 800w,
+                                    assets/img/optimized/placeholder4-large.webp 1200w"
+                            type="image/webp">
+                        <img 
+                            src="assets/img/placeholder4.jpg" 
+                            srcset="
+                                assets/img/optimized/placeholder4-small.jpg 400w,
+                                assets/img/optimized/placeholder4-medium.jpg 800w,
+                                assets/img/optimized/placeholder4-large.jpg 1200w"
+                            sizes="(min-width: 1024px) 50vw, (min-width: 768px) 70vw, 100vw"
+                            alt="Mise à disposition" 
+                            loading="lazy">
+                    </picture>
+                </div>
+                <div class="service-content">
+                    <h2 class="animate">Mise à disposition</h2>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Location avec chauffeur</li>
+                        <li><i class="fas fa-check"></i> Service flexible</li>
+                    </ul>
+                    <p>Profitez d'un véhicule avec chauffeur pour vos événements, disponible selon vos besoins.</p>
                 </div>
             </div>
         </div>
@@ -138,8 +258,8 @@
                     <h3>VEGO VTC</h3>
                     <p>Service de transport avec chauffeur pour tous vos déplacements professionnels et personnels.</p>
                     <div class="contact">
-                        <p><i class="fas fa-phone"></i> +33 6 00 00 00 00</p>
-                        <p><i class="fas fa-envelope"></i> contact@vtcpremium.fr</p>
+                        <p><i class="fas fa-phone"></i> +33 7 58 27 53 90</p>
+                        <p><i class="fas fa-envelope"></i> veegovtc@gmail.com</p>
                         <p><i class="fas fa-map-marker-alt"></i> 123 Avenue des Champs-Élysées, 75008 Paris</p>
                     </div>
                 </div>
